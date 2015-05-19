@@ -1,6 +1,46 @@
 # Amaze UI Change Log
 ---
 
+### 2015.05 W2
+
+**CSS:**
+
+- `IMPROVED` #556 调整 `select` 在 Firefox 下的样式（Thx to @photino）。
+
+**JS:**
+
+- `CHANGED` 使用 CSS 定位 Popover 箭头。
+
+### 2015.05 W1
+
+**Web 组件：**
+
+- `IMPROVED` 替换废弃的 `.on('ready')` 语法。
+
+### 2015.04 W4
+
+**CSS:**
+
+- `FIXED` `:root` 基准字号由 `62.5%` 调整为 `10px`，解决某些浏览器的默认字号不是 `16px`；
+- `CHANGED` Button/input 垂直 `padding` 由 `0.625em` 调整为 `0.5em`；
+- `FIXED` #392 解决输入框组文本框与按钮在部分浏览器上的对齐问题。
+
+**Example**:
+
+- `IMPROVED` #540 iScroll 示例添加 `click: true` 选项，解决 Android 浏览器上链接不可点击问题。
+
+### 2015.04 W3
+
+**CSS:**
+
+- `FIXED` 修复 Input-group 设置颜色后在 `.am-form` 中无效问题；
+- `IMPROVED` Form 表单验证状态图标支持带有 `label` 的 from group；
+
+**JS:**
+
+- `IMPROVED` #528 Validator `H5inputType` 优先使用用户定义的验证规则；
+- `IMPROVED` #520 添加设置触发验证程序事件选项 `activeKeyup`、`textareaMaxlenthKeyup`。
+
 ### 2015.04 W1
 
 **CSS:**
